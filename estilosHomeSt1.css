@@ -714,50 +714,64 @@
 	font-size: max(23px, 1.5vw);
 	margin-top: 2%;
 }
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxMeioDoSiteHomeMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.nav{
+	width: 100%;;
+	min-height: 2122px;
+	/*background-color: red;*/
+	float: left;
+}
+.contFoto{
+	width: 100%;
+	min-height: 350px;
 
+}
+.contFoto2{
+	width: 100%;
+	min-height: 350px;
+}
+.contTexto2{
+	width: 100%;
+	min-height: 150px;
+	background-color: #78866b;
+	margin: 5px 0 5px 0;
+
+}
+.contTexto4{
+
+	margin:5% 0 5px 0;
+}
+.contFoto5{
+	width: 100%;
+	min-height: 300px;
+}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalSiteHomeMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 
 .rodape{
 	width: 100%;
-	min-height: 240px;
-	background-color: #78866b;
-	float: left;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+	min-height: 350px;
 }
 .menuRodape div{
-	/*background-color: red;*/
 	width: 95%;
 	margin: auto;
 }
 .flatIcon1{
-	width: 250px;
-	min-height: 150px;
-	/*background-color: black;*/
+	width: 100%;
+	min-height: 100px;
 	float: left;
-	/*align-items: center;*/
 	
 }
 .flatIcon1 img{
 	width: 100px;
 	height: 100px;
 	float: left;
-	/*background-color: red;*/
-
 }
 
 .flatIcon{
-	width: 250px;
-	min-height: 150px;
-	/*background-color: black;*/
+	width: 100%;
+	min-height: 100px;
 	float: left;
-
-	
-	
-
 }
 .flatIcon img{
 	width: 100px;
@@ -777,12 +791,7 @@
 	margin: 0;
 	}
 .logoRodape{
-	width: 60px;
-	height: 55px;
-	background-image: url(imagens-icones/logo.png);
-	/*background-color: red;*/
-	background-repeat: no-repeat ;
-	float: left;
+	margin: 0;
 	
 }
 }
