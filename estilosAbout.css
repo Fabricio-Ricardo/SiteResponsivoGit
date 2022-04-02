@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Teko:wght@300&family=Zen+Kurenaido&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxTopoDoSiteAboutxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.topo{
+	width: 100%;;
+    min-height: 145px;
+    /*background-color: red;*/
+}
+.logo{
+    width:70px;
+    height: 90px;
+    background-image: url(imagens-icones/logo.png);
+    background-repeat: no-repeat;
+    /*background-color: white;*/
+    float: left;
+    margin: 1% 0 0 1%;
+}
+
+.redes{
+	width:20%;
+	height: 40px;
+    /*background-color: blue;*/
+    float: right;
+    margin: 2% 1% 0 0;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.redecaix{
+  	width: 20%;
+  	height: 40px;
+  	background-color: white;
+  	margin-left: 1%;
+  	display: flex;
+  	align-items: center;
+  	border-radius: 10%;
+  	border-radius: 10%;
+  	border: 1px solid white;
+  	transition: 1s;
+}
+
+.redecaix:hover{
+   border: 1px solid #5a6f44;
+}
+
+.redecaix img{
+ 	margin-left: 10%;
+}
+.menuMobile{
+	display: none;
+}
+.menuExpande{
+	display: none;
+}
+
+.menu{
+ 	width: 100%;
+ 	min-height: 50px;
+ 	background-color:#78866b;
+ 	float: left;
+ 	display: flex;
+ 	justify-content: center;
+}
+
+.caixaMenu{
+	width: 10%;
+	height: 50px; 
+	background-color: #78866b;
+	margin-left: 2%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+
+.caixaMenu:hover{
+	background-color: #5a6f44;	
+}
+
+.caixaMenu a{
+	text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	color: white;
+	/*font-size: 2.5vw;*/
+	font-size:max(20px, 2.5vw);
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxMeioDoSiteAboutxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.nav{
+	width: 100%;
+	min-height: 1600px;
+	/*background-color: pink;*/
+	float: left;
+
+}
+.fotoAbout{
+	width: 100%;
+	min-height: 360px;
+	background-color: rgba(90, 111, 68, 0.1);
+	background-image:url("imagens-icones/fotoAbout.png") ;
+	background-size:cover;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fotoAbout h1{
+	font-size:max(50px, 5vw);
+	color: white;
+	font-family: 'Staatliches', cursive;
+	color: white;
+
+}
+.contToda{
+width: 100%;
+min-height: 1200px;
+/*background-color:darkgoldenrod ;*/
+float: left;
+display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.logoPgAbout{
+	width: 15%;
+	min-height: 135px;
+	/*background-color: deepskyblue;*/
+	background-image: url(imagens-icones/logoGrande.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 10%;
+}
+.contToda p{
+	text-indent: 5%;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: black;
+	font-size: max(17px, 1.5vw);
+	margin: 2% 25% 0 25%;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalDoSiteAboutxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.rodape{
+	width: 100%;
+	min-height: 240px;
+	background-color: #78866b;
+	float: left;
+	text-align: center;
+	align-items: center;
+}
+
+.copy{
+	width: ;
+	background-color: #5a6f44;
+	width: 100%;
+	min-height: 40px;
+	float: left;
+}
+
+.copy p{
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: white;
+	/*font-size: 1.5vw;*/
+	font-size: max(13px, 1vw);
+}
+
+.flatIcon1{
+	width: 45%;
+	min-height: 150px;
+	/*background-color: black;*/
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.flatIcon{
+	width: 40%;
+	min-height: 150px;
+	/*background-color: black;*/
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.linkRodape{
+	text-decoration: none;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: white;
+	font-size: max(12px, 1vw);
+	background-color: #78866b;
+	padding: 1%;
+	border-radius: 5%;
+	transition: 1.5s;
+}
+
+.linkRodape:hover {
+    background-color: #5a6f44;	
+}
+
+.menuRodape{
+	width: 100%;
+	min-height: 50px;
+	background-color: #5a6f44;
+	border: 1px solid white;
+	float: left;
+	display: flex;
+	align-items: center;
+
+}
+
+.menuRodape div{
+	/*background-color: red;*/
+	width: 45%;
+	margin: auto;
+}
+
+.menuRodape a{
+	text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	color: white;
+	font-size: 17px;
+	margin-left: 5%;
+	padding: 10px;
+	background-color:#5a6f44  ;
+	transition: 1.5s;	
+}
+
+.menuRodape a:hover{
+	background-color:#78866b;
+}
+
+.logoRodape{
+	width: 10%;
+	height: 55px;
+	background-image: url(imagens-icones/logo.png);
+	/*background-color: red;*/
+	background-repeat: no-repeat ;
+	float: left;
+	margin: 5% 0 0 2.5%;
+}
+
+
+@media (max-width:768px){
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxTopoDoSiteAboutTabletxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.topo{
+	width: 100%;;
+    min-height: 230px;
+    /*background-color: red;*/
+}
+.menu{
+ 	width: 100%;
+ 	min-height: 75px;
+ 	background-color:#78866b;
+ 	float: left;
+ 	display: flex;
+ 	justify-content: center;
+ 	margin-top:60px ;
+ 	
+}
+.redes{
+	width:37%;
+	height: 40px;
+   
+
+}
+.redecaix{
+  	width: 40px;
+  	height: 40px;
+
+}
+.menuExpande{
+	display:block;
+	background-color: #5a6f44;
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: -200px;
+	transition: 1.5s;
+	
+}
+.menuExpande a{
+	text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	color: white;
+	/*font-size: 2.5vw;*/
+	font-size:max(25px, 2.5vw);
+
+}
+.caixaMenu{
+	display: none;
+
+}
+.menu{
+ 	width: 100%;
+ 	min-height: 75px;
+ 	background-color:#78866b;
+ 	float: left;
+ 	display: flex;
+ 	justify-content: center;
+}
+.menuMobile{
+	display: block;
+	width: 64px;
+	height: 64px;
+	background-image: url(imagens-icones/menuMobile.png);
+	/*border: 2px solid white;*/
+	margin-top: 3.5px;
+	transform: rotate(0deg);
+	transition: 1s;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxMeioDoSiteAboutTabletxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.nav{
+	width: 100%;
+	min-height: 1700px;
+	/*background-color: pink;*/
+	float: left;
+
+}
+.contToda{
+width: 100%;
+min-height: 1300px;
+/*background-color:darkgoldenrod ;*/
+float: left;
+display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.logoPgAbout{
+	width: 130px;
+}
+.contToda p{
+	margin: 2% 15% 0 15%;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalDoSiteAboutTabletxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.menuRodape div{
+	/*background-color: red;*/
+	width: 75%;
+	margin: auto;
+}
+.flatIcon1{
+	width: 43%;
+	min-height: 150px;
+	/*background-color: black;*/
+	float: left;
+	
+}
+.flatIcon1 img{
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+
+}
+
+.flatIcon{
+	width: 40%;
+	min-height: 150px;
+	/*background-color: black;*/
+	float: right;
+	display: flex;
+	align-items: center;
+}
+.flatIcon img{
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+}
+.linkRodape{
+	text-decoration: none;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: white;
+	font-size: max(12px, 1vw);
+	background-color: #78866b;
+	padding:1%;
+	border-radius: 5%;
+	transition: 1.5s;
+	/*background-color: green;*/
+	margin: 0;
+	}
+.logoRodape{
+	width: 60px;
+	height: 55px;
+	background-image: url(imagens-icones/logo.png);
+	/*background-color: red;*/
+	background-repeat: no-repeat ;
+	float: left;
+}
+}
+
+@media (max-width: 480px){
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxTopoDoSiteAboutMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.topo{
+	width: 100%;;
+    min-height: 230px;
+    /*background-color: red;*/
+}
+.menu{
+ 	width: 100%;
+ 	min-height: 75px;
+ 	background-color:#78866b;
+ 	float: left;
+ 	display: flex;
+ 	justify-content: center;
+ 	margin-top:60px ;
+ 	
+}
+.menuExpande{
+	display:block;
+	background-color: #5a6f44;
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: -200px;
+	transition: 1.5s;
+	
+}
+.menuExpande a{
+	text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	color: white;
+	/*font-size: 2.5vw;*/
+	font-size:max(25px, 2.5vw);
+
+}
+.caixaMenu{
+	display: none;
+
+}
+.menuMobile{
+	display: block;
+	width: 64px;
+	height: 64px;
+	background-image: url(imagens-icones/menuMobile.png);
+	/*border: 2px solid white;*/
+	margin-top: 3.5px;
+}
+.redes{
+	width:190px;
+	height: 40px;
+    /*background-color: blue;*/
+    float:right;
+    margin: 2% 0 0 0;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxMeioDoSiteAboutMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.nav{
+	width: 100%;
+	min-height: 2100px;
+	/*background-color: pink;*/
+	float: left;
+
+}
+.contToda{
+width: 100%;
+min-height: 1700px;
+/*background-color:darkgoldenrod ;*/
+float: left;
+display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.logoPgAbout{
+	width: 130px;
+}
+.contToda p{
+	margin: 2% 15% 0 15%;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalSiteAboutMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+.rodape{
+	width: 100%;
+	min-height: 350px;
+}
+.menuRodape div{
+	width: 95%;
+	margin: auto;
+}
+.flatIcon1{
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	
+}
+.flatIcon1 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.flatIcon{
+	width: 100%;
+	min-height: 100px;
+	float: left;
+}
+.flatIcon img{
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+}
+.linkRodape{
+	text-decoration: none;
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: white;
+	font-size: max(12px, 1vw);
+	background-color: #78866b;
+	padding:1%;
+	border-radius: 5%;
+	transition: 1.5s;
+	/*background-color: green;*/
+	margin: 0;
+	}
+.logoRodape{
+/*background-color: red;*/
+margin-left: 45%;
+	
+}
+}
+
+
