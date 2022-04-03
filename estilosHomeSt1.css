@@ -423,7 +423,7 @@
 }
 
 .logoRodape{
-	width: 10%;
+	width: 12%;
 	height: 55px;
 	background-image: url(imagens-icones/logo.png);
 	/*background-color: red;*/
@@ -753,6 +753,10 @@
 	font-size: max(23px, 2.5vw);
 	margin-top: 2%;
 	/*background-color: red;*/
+}
+.caixaIcone div{
+	background-image: url(imagens-icones/flor.png);
+	
 }
 
 
