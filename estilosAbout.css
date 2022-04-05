@@ -92,7 +92,7 @@
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxMeioDoSiteAboutxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .nav{
 	width: 100%;
-	min-height: 1600px;
+	min-height: 1500px;
 	/*background-color: pink;*/
 	float: left;
 
@@ -117,7 +117,7 @@
 }
 .contToda{
 width: 100%;
-min-height: 1200px;
+min-height: 1050px;
 /*background-color:darkgoldenrod ;*/
 float: left;
 display: flex;
@@ -137,7 +137,7 @@ display: flex;
 	text-indent: 5%;
 	font-family: 'Zen Kurenaido', sans-serif;
 	color: black;
-	font-size: max(17px, 1.5vw);
+	font-size: max(16px, 1.5vw);
 	margin: 2% 25% 0 25%;
 }
 
@@ -320,14 +320,14 @@ display: flex;
 
 .nav{
 	width: 100%;
-	min-height: 1700px;
+	min-height: 1470px;
 	/*background-color: pink;*/
 	float: left;
 
 }
 .contToda{
 width: 100%;
-min-height: 1300px;
+min-height: 1100px;
 /*background-color:darkgoldenrod ;*/
 float: left;
 display: flex;
@@ -461,14 +461,14 @@ display: flex;
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxMeioDoSiteAboutMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .nav{
 	width: 100%;
-	min-height: 2100px;
+	min-height: 1800px;
 	/*background-color: pink;*/
 	float: left;
 
 }
 .contToda{
 width: 100%;
-min-height: 1700px;
+min-height: 1300px;
 /*background-color:darkgoldenrod ;*/
 float: left;
 display: flex;
@@ -479,7 +479,7 @@ display: flex;
 	width: 130px;
 }
 .contToda p{
-	margin: 2% 15% 0 15%;
+	margin: 2% 10% 0 10%;
 }
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalSiteAboutMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 

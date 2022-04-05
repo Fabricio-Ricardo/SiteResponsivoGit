@@ -142,6 +142,7 @@
 
 	
 }
+
 .caixaForm1{
 	width: 60%;
 	heigh: 300px;
@@ -151,32 +152,36 @@
 	margin-top: 10%;
 
 }
-label{
+.lbl{
 	font-family: 'Zen Kurenaido', sans-serif;
 	color: black;
 	font-size: max(20px, 1.5vw);
 	/*background-color: red;*/
-	margin-top: 10%;
-	
+	position: absolute;
+	margin-left: -30%;
+	pointer-events: none;
+	transition: 1s;	
 } 
 
-input[type="text"]{
+
+.inputCaix{
 width: 100%;
 height: 35px;
 border: none;
 border-bottom: 1px solid gray ;
 transition: 1s;
-
+outline: none;
+font-family: 'Zen Kurenaido', sans-serif;
 
 }
+.inputCaix:focus ~ .lbl, .inputCaix:valid ~ .lbl{
+margin-top: -18px;
+color:green;
+} 
 
- textarea:focus, input:focus  {
-outline: 0;
-box-shadow: inset 0 -2px 0  #5a6f44;
-}
 
 input[type="submit"]{
-width: 50%;
+width: 100%;
 height: 45px;
 background-color: #5a6f44;
 color: white;
@@ -185,11 +190,16 @@ border: none;
 float: left;
 margin-top: 2%;
 font-size: 17px;
-opacity: 0.6;
+opacity: 0.7;
 transition: 1.5s;
 }
 input[type="submit"]:hover{
 	opacity: 1;
+}
+textarea{
+width: 100%;
+font-family: 'Zen Kurenaido', sans-serif;
+outline: none;
 }
 
 
@@ -370,6 +380,18 @@ input[type="submit"]:hover{
 	margin-top: 10%;
 	 box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.19);
 }
+.lbl{
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: black;
+	font-size: max(20px, 1.5vw);
+	/*background-color: red;*/
+	position: absolute;
+	margin-left: -42%;
+	pointer-events: none;
+	transition: 1s;	
+} 
+
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalDoSiteContactsTabletxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .menuRodape div{
 	/*background-color: red;*/
@@ -522,6 +544,16 @@ input[type="submit"]:hover{
 	margin-top: 10%;
 
 }
+.lbl{
+	font-family: 'Zen Kurenaido', sans-serif;
+	color: black;
+	font-size: max(20px, 1.5vw);
+	/*background-color: red;*/
+	position: absolute;
+	margin-left: -60%;
+	pointer-events: none;
+	transition: 1s;	
+} 
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxFinalDoContatsHomeMobilexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .rodape{
